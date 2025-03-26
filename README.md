@@ -3,7 +3,7 @@
 
 This project is my own solution to the classic **dining philosophers problem**, where one or more philosophers are sat at a round table with a dish in the middle. Philosophers can only eat, think or sleep, and they can only carry out one of these actions at a time.
 
-Each philosopher has **one fork**, but **needs two forks** to eat, and so must borrow the neighbouring fork (to the left or to the right). When one philosopher finishes eating, the forks are left on the table and she/he immediately starts to sleep. After sleep comes thinking time, and this process will repeat until one or more philosophers die due to hunger, or each one has eaten a previously established number of times.
+Each philosopher has **one fork**, but **needs two forks** to eat, and so must borrow the neighboring fork (to the left or to the right). When one philosopher finishes eating, the forks are left on the table and she/he immediately starts to sleep. After sleep comes thinking time, and this process will repeat until one or more philosophers die due to hunger, or each one has eaten a previously established number of times.
 
 My program receives a **4 arguments**, and **optionaly one extra argument**, described as follows:
 - number_of_philosophers: not much to explain here.
